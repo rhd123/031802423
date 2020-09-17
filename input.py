@@ -1,12 +1,3 @@
-import os
-
-
-class GetPath:
-    def getPath(self, path):
-        r = os.path.abspath(path)
-        return r
-
-
-if __name__ == '__main__' :
-    a = GetPath().getPath('./get_GetPath.py')
-    print(a)
+   def __init__(self, text1, text2):
+        self.s1 = text1
+        self.s2 = text2
